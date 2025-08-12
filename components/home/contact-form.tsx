@@ -8,6 +8,7 @@ import Container from '@/components/shared/container';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Textarea } from '@/components/ui/textarea';
+import { ChevronDown, ChevronUp } from 'lucide-react';
 
 // Zod schema for form validation
 const contactFormSchema = z.object({
@@ -20,11 +21,51 @@ const contactFormSchema = z.object({
 
 type ContactFormData = z.infer<typeof contactFormSchema>;
 
+interface AccordionItem {
+  id: string;
+  title: string;
+  content: string;
+  isOpen: boolean;
+}
+
 export const ContactForm = () => {
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [submitStatus, setSubmitStatus] = useState<
     'idle' | 'success' | 'error'
   >('idle');
+
+  const [accordionItems, setAccordionItems] = useState<
+    AccordionItem[]
+  >([
+    {
+      id: 'impact',
+      title: '100% IMPACT',
+      content:
+        'Your contribution goes a long way in ensuring the development of our future transformational global leaders!',
+      isOpen: false,
+    },
+    {
+      id: 'scholarships',
+      title: '2 SCHOLARSHIPS',
+      content: 'Annual scholarships awarded to deserving students',
+      isOpen: false,
+    },
+    {
+      id: 'potential',
+      title: 'INFINITE POTENTIAL',
+      content:
+        'The limitless impact of developing transformational leaders',
+      isOpen: false,
+    },
+  ]);
+
+  const toggleAccordion = (id: string) => {
+    setAccordionItems((prev) =>
+      prev.map((item) =>
+        item.id === id ? { ...item, isOpen: !item.isOpen } : item
+      )
+    );
+  };
 
   const {
     register,
@@ -87,35 +128,32 @@ export const ContactForm = () => {
 
             {/* Accordion Sections */}
             <div className="space-y-4">
-              <div className="bg-primary backdrop-blur-sm border border-white/20 rounded-lg p-6">
-                <div className="flex items-center justify-between">
-                  <h3 className="text-lg font-semibold text-white">
-                    100% IMPACT
-                  </h3>
-                  <span className="text-2xl text-yellow-300">+</span>
-                </div>
-              </div>
+              {accordionItems.map((item) => (
+                <div
+                  key={item.id}
+                  className="bg-primary backdrop-blur-sm border border-white/20 rounded-lg overflow-hidden transition-all duration-300 hover:shadow-lg">
+                  <button
+                    onClick={() => toggleAccordion(item.id)}
+                    className="w-full p-6 text-left flex items-center justify-between hover:bg-primary/90 transition-colors duration-200">
+                    <h3 className="text-lg font-semibold text-white">
+                      {item.title}
+                    </h3>
+                    {item.isOpen ? (
+                      <ChevronUp className="text-2xl text-yellow-300 transition-transform duration-200" />
+                    ) : (
+                      <ChevronDown className="text-2xl text-yellow-300 transition-transform duration-200" />
+                    )}
+                  </button>
 
-              <div className="bg-primary backdrop-blur-sm border border-white/30 rounded-lg p-6">
-                <div className="flex items-center justify-between mb-3">
-                  <h3 className="text-lg font-semibold text-white">
-                    2 SCHOLARSHIPS
-                  </h3>
-                  <span className="text-2xl text-yellow-300">−</span>
+                  {item.isOpen && (
+                    <div className="px-6 pb-6">
+                      <p className="text-gray-200 leading-relaxed">
+                        {item.content}
+                      </p>
+                    </div>
+                  )}
                 </div>
-                <p className="text-gray-200">
-                  Annual scholarships awarded to deserving students
-                </p>
-              </div>
-
-              <div className="bg-primary backdrop-blur-sm border border-white/20 rounded-lg p-6">
-                <div className="flex items-center justify-between">
-                  <h3 className="text-lg font-semibold text-white">
-                    INFINITE POTENTIAL
-                  </h3>
-                  <span className="text-2xl text-yellow-300">+</span>
-                </div>
-              </div>
+              ))}
             </div>
           </div>
 
