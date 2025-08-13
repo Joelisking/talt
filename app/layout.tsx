@@ -8,7 +8,7 @@ import BackToTop from '@/components/shared/navbar/BackToTop';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: 'TALT - Atakora Leadership Trust',
+  title: 'TALT - Akora Leadership Trust',
   description:
     'Developing transformational global leaders in Ghana through character-based scholarships and leadership mentoring programs',
 };
