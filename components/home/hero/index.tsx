@@ -9,16 +9,16 @@ function Hero() {
     <section id="hero" className="mt-28 md:mt-40 mb-12 md:mb-28">
       <Container>
         <SectionHeader
-          highlightedWord="Atakora Leadership Trust"
+          highlightedWord="Akora Leadership Trust"
           className="leading-snug hidden lg:block"
           size="base">
-          Welcome to the Atakora Leadership Trust
+          Welcome to the Akora Leadership Trust
         </SectionHeader>
         <SectionHeader
-          highlightedWord="Atakora Leadership Trust"
+          highlightedWord="Akora Leadership Trust"
           className="leading-snug lg:hidden"
           size="md">
-          Welcome to the Atakora Leadership Trust
+          Welcome to the Akora Leadership Trust
         </SectionHeader>
         <p className="text-base sm:text-lg md:text-xl lg:text-[22px] leading-relaxed sm:leading-snug mt-2">
           An NGO dedicated to developing transformational global
