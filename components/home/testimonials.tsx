@@ -49,20 +49,6 @@ const testimonials: Testimonial[] = [
     Thank you, TALT, for believing in me.`,
   },
   {
-    id: 3,
-    image: '/testimonials/francis.jpg',
-    name: 'Awusi Francis Anokye',
-    content: ` I am Awusi Francis Anokye, a proud old student of Achimota School and a native of Adansi Akwanserem in the Adansi North District. Today, I am in my third year at Kwame Nkrumah University of Science and Technology (KNUST), pursuing a degree in Materials Engineering. This journey—one that has brought me this far, from humble beginnings to academic excellence—would not have been possible without the incredible support and vision of The Akora Leadership Trust (TALT).
-
-    Growing up, the path to higher education often seemed like a distant dream due to financial and societal limitations. But TALT believed in my potential when many others didn’t see it. Through their support—financial, emotional, and motivational—I have not only entered the university but am thriving in a challenging and dynamic field. They gave me more than just an opportunity; they gave me a future.
-
-    What makes TALT truly special is their genuine commitment to nurturing young minds. They don’t just offer assistance; they build leaders. Their investment in my life has changed my story, and I am forever grateful. I carry the values they instilled in me—discipline, leadership, and integrity—into every step I take.
-
-    To The Akora Leadership Trust, thank you for lighting my path. Your belief in me has shaped the man I am becoming, and I promise to carry this torch forward, lighting the way for others just as you did for me.
-
-    God richly bless you.`,
-  },
-  {
     id: 4,
     image: '/testimonials/samuel.jpeg',
     name: 'Samuel Eli Setsofia',
@@ -135,6 +121,20 @@ const testimonials: Testimonial[] = [
     I am deeply grateful to The Akora Leadership Trust for believing in my potential and investing in
     my growth. I carry this opportunity with pride and responsibility, knowing that it is a call to rise,
     lead, and give back.`,
+  },
+  {
+    id: 3,
+    image: '/testimonials/francis.jpg',
+    name: 'Awusi Francis Anokye',
+    content: ` I am Awusi Francis Anokye, a proud old student of Achimota School and a native of Adansi Akwanserem in the Adansi North District. Today, I am in my third year at Kwame Nkrumah University of Science and Technology (KNUST), pursuing a degree in Materials Engineering. This journey—one that has brought me this far, from humble beginnings to academic excellence—would not have been possible without the incredible support and vision of The Akora Leadership Trust (TALT).
+
+    Growing up, the path to higher education often seemed like a distant dream due to financial and societal limitations. But TALT believed in my potential when many others didn’t see it. Through their support—financial, emotional, and motivational—I have not only entered the university but am thriving in a challenging and dynamic field. They gave me more than just an opportunity; they gave me a future.
+
+    What makes TALT truly special is their genuine commitment to nurturing young minds. They don’t just offer assistance; they build leaders. Their investment in my life has changed my story, and I am forever grateful. I carry the values they instilled in me—discipline, leadership, and integrity—into every step I take.
+
+    To The Akora Leadership Trust, thank you for lighting my path. Your belief in me has shaped the man I am becoming, and I promise to carry this torch forward, lighting the way for others just as you did for me.
+
+    God richly bless you.`,
   },
 ];
 
