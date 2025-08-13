@@ -46,7 +46,7 @@ function AboutLink() {
         </div>
         <div className="relative min-h-[300px] sm:min-h-[350px] md:min-h-[400px] lg:min-h-[450px] rounded-xl sm:rounded-2xl overflow-hidden order-1 md:order-2">
           <Image
-            src="/home/about-link.jpg"
+            src="/home/about.jpg"
             alt="Historical Image"
             fill
             className="object-cover rounded-xl sm:rounded-2xl"
