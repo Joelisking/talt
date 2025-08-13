@@ -42,7 +42,8 @@ export const Pillars = () => {
             <p className="text-sm sm:text-base lg:text-lg text-gray-200 leading-relaxed">
               We therefore aim to encourage, enhance and support the
               nurturing of emotional intelligence as a critical factor
-              in the nurturing of TGLs.
+              in the nurturing of Transformational
+              Global Leaders.
             </p>
           </div>
           <div className="rounded-2xl sm:rounded-3xl bg-white/15 backdrop-blur-sm border border-white/30 px-6 sm:px-8 py-8 sm:py-10 lg:py-12 shadow-xl hover:shadow-2xl transition-all duration-300 hover:bg-white/20 group sm:col-span-2">
