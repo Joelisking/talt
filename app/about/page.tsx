@@ -165,28 +165,26 @@ export default function About() {
                 Our selection process prioritizes:
               </p>
               <ul className="space-y-3 text-gray-700">
-                <li className="flex items-start gap-3">
-                  <div className="w-2 h-2 bg-primary rounded-full mt-3 flex-shrink-0"></div>
-                  <span>Consistent academic excellence</span>
+                <li className="flex items-center gap-3">
+                  <span className="w-1.5 h-1.5 bg-primary rounded-full flex-shrink-0"></span>
+                  Consistent academic excellence
                 </li>
-                <li className="flex items-start gap-3">
-                  <div className="w-2 h-2 bg-primary rounded-full mt-3 flex-shrink-0"></div>
-                  <span>Exemplary character</span>
+                <li className="flex items-center gap-3">
+                  <span className="w-1.5 h-1.5 bg-primary rounded-full flex-shrink-0"></span>
+                  Exemplary character
                 </li>
-                <li className="flex items-start gap-3">
-                  <div className="w-2 h-2 bg-primary rounded-full mt-3 flex-shrink-0"></div>
-                  <span>Leadership potential</span>
+                <li className="flex items-center gap-3">
+                  <span className="w-1.5 h-1.5 bg-primary rounded-full flex-shrink-0"></span>
+                  Leadership potential
                 </li>
-                <li className="flex items-start gap-3">
-                  <div className="w-2 h-2 bg-primary rounded-full mt-3 flex-shrink-0"></div>
-                  <span>Community service</span>
+                <li className="flex items-center gap-3">
+                  <span className="w-1.5 h-1.5 bg-primary rounded-full flex-shrink-0"></span>
+                  Community service
                 </li>
-                <li className="flex items-start gap-3">
-                  <div className="w-2 h-2 bg-primary rounded-full mt-3 flex-shrink-0"></div>
-                  <span>
-                    Strong foundation of three years at Achimota
-                    School with an outstanding BECE score
-                  </span>
+                <li className="flex items-center gap-3">
+                  <span className="w-1.5 h-1.5 bg-primary rounded-full flex-shrink-0"></span>
+                  Strong foundation of three years at Achimota School
+                  with an outstanding BECE score
                 </li>
               </ul>
             </div>
