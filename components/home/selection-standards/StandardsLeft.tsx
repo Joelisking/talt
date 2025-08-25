@@ -19,8 +19,8 @@ const data = [
 function StandardsLeft() {
   return (
     <div className="w-full md:w-1/2">
-      <h2 className="text-3xl md:text-4xl text-primary font-bold">
-        Selection Criteria
+      <h2 className="text-3xl md:text-4xl font-bold">
+        Selection Standards
       </h2>
 
       <div className="flex flex-col gap-3 mt-7">
