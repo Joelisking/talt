@@ -44,9 +44,9 @@ export const navItems: NavItem[] = [
     url: '#testimonials',
     isScrollLink: true,
   },
-  {
-    text: 'Contact',
-    url: '#contact',
-    isScrollLink: true,
-  },
+  // {
+  //   text: 'Contact',
+  //   url: '#contact',
+  //   isScrollLink: true,
+  // },
 ];
