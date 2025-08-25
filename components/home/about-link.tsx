@@ -37,12 +37,12 @@ function AboutLink() {
             students, he was supporting at the University all by
             himself.
           </p>
-          <Link href="/about">
+          {/* <Link href="/about">
             <Button className="text-sm sm:text-base px-4 sm:px-6 py-2 sm:py-3">
               Learn More{' '}
               <MoveRight className="ml-2 h-4 w-4 sm:h-5 sm:w-5" />
             </Button>
-          </Link>
+          </Link> */}
         </div>
         <div className="relative min-h-[300px] sm:min-h-[350px] md:min-h-[400px] lg:min-h-[450px] rounded-xl sm:rounded-2xl overflow-hidden order-1 md:order-2">
           <Image
