@@ -117,12 +117,12 @@ export const ContactForm = () => {
   return (
     <section
       id="contact"
-      className="relative bg-white py-16 sm:py-20 lg:py-24 text-white overflow-hidden">
+      className="relative py-16 sm:py-20 lg:py-24 text-white overflow-hidden">
       <Container>
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-start">
           {/* Left Side - Become a Friend */}
           <div className="space-y-8">
-            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-black leading-tight">
+            <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-black leading-tight">
               BECOME A FRIEND OF TALT TODAY!
             </h2>
 
@@ -131,23 +131,23 @@ export const ContactForm = () => {
               {accordionItems.map((item) => (
                 <div
                   key={item.id}
-                  className="bg-primary backdrop-blur-sm border border-white/20 rounded-lg overflow-hidden transition-all duration-300 hover:shadow-lg">
+                  className="bg-secondary backdrop-blur-sm border border-white/20 rounded-lg overflow-hidden transition-all duration-300 hover:shadow-lg">
                   <button
                     onClick={() => toggleAccordion(item.id)}
-                    className="w-full p-6 text-left flex items-center justify-between hover:bg-primary/90 transition-colors duration-200">
-                    <h3 className="text-lg font-semibold text-white">
+                    className="w-full p-6 text-left flex items-center justify-between hover:bg-secondary/90 transition-colors duration-200">
+                    <h3 className="text-lg font-semibold text-black">
                       {item.title}
                     </h3>
                     {item.isOpen ? (
-                      <ChevronUp className="text-2xl text-yellow-300 transition-transform duration-200" />
+                      <ChevronUp className="text-2xl text-primary transition-transform duration-200" />
                     ) : (
-                      <ChevronDown className="text-2xl text-yellow-300 transition-transform duration-200" />
+                      <ChevronDown className="text-2xl text-primary transition-transform duration-200" />
                     )}
                   </button>
 
                   {item.isOpen && (
                     <div className="px-6 pb-6">
-                      <p className="text-gray-200 leading-relaxed">
+                      <p className="text-gray-800 leading-relaxed">
                         {item.content}
                       </p>
                     </div>

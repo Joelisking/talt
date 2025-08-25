@@ -13,7 +13,7 @@ function SelectionCriteria() {
   return (
     <section id="selection-criteria" className="py-24 bg-secondary">
       <Container className="px-8 xl:px-0">
-        <h2 className="text-3xl md:text-4xl text-primary font-bold mb-4 lg:mb-8">
+        <h2 className="text-3xl md:text-4xl font-bold mb-4 lg:mb-8">
           Selection Criteria
         </h2>
 
@@ -23,7 +23,7 @@ function SelectionCriteria() {
             <div className="bg-primary p-5 rounded-full flex items-center justify-center w-16 h-16">
               <Medal color="#FFFFFF" className="w-10 h-10" />
             </div>
-            <h3 className="text-2xl font-bold text-primary mt-8 mb-4">
+            <h3 className="text-2xl font-bold mt-8 mb-4">
               Good Character
             </h3>
             <p className="text-sm text-gray-800 leading-relaxed">
@@ -36,7 +36,7 @@ function SelectionCriteria() {
             <div className="bg-primary p-5 rounded-full flex items-center justify-center w-16 h-16">
               <BookOpen color="#FFFFFF" className="w-10 h-10" />
             </div>
-            <h3 className="text-2xl font-bold text-primary mt-8 mb-4">
+            <h3 className="text-2xl font-bold mt-8 mb-4">
               Academic Excellence
             </h3>
             <p className="text-sm text-gray-800 leading-relaxed">
@@ -49,7 +49,7 @@ function SelectionCriteria() {
             <div className="bg-primary p-5 rounded-full flex items-center justify-center w-16 h-16">
               <GraduationCap color="#FFFFFF" className="w-10 h-10" />
             </div>
-            <h3 className="text-2xl font-bold text-primary mt-8 mb-4">
+            <h3 className="text-2xl font-bold mt-8 mb-4">
               Achimota Education
             </h3>
             <p className="text-sm text-gray-800 leading-relaxed">
@@ -63,7 +63,7 @@ function SelectionCriteria() {
             <div className="bg-primary p-5 rounded-full flex items-center justify-center w-16 h-16">
               <FileText color="#FFFFFF" className="w-10 h-10" />
             </div>
-            <h3 className="text-2xl font-bold text-primary mt-8 mb-4">
+            <h3 className="text-2xl font-bold mt-8 mb-4">
               Leadership & Service
             </h3>
             <p className="text-sm text-gray-800 leading-relaxed">
@@ -78,7 +78,7 @@ function SelectionCriteria() {
             <div className="bg-primary p-5 rounded-full flex items-center justify-center w-16 h-16">
               <Users color="#FFFFFF" className="w-10 h-10" />
             </div>
-            <h3 className="text-2xl font-bold text-primary mt-8 mb-4">
+            <h3 className="text-2xl font-bold mt-8 mb-4">
               Higher Education Plans
             </h3>
             <p className="text-sm text-gray-800 leading-relaxed">

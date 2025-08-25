@@ -15,7 +15,7 @@ function SelectionProcess() {
       step: 2,
       title: 'Second Selection',
       description:
-        'Second Selection by an External Panel of notable (Akora and Non-Akora) leaders during an Assessment Centre.',
+        'Second Selection by an External Panel of notable (Akora and Non-Akora) leaders during a Panel Interview.',
     },
     {
       step: 3,

@@ -12,7 +12,7 @@ function Footer() {
 
   return (
     <div>
-      <footer className="bg-primary text-white py-20 mt-12 sm:mt-16">
+      <footer className="bg-secondary text-white py-20">
         <Container>
           {/* Top Section - Logo and Mission */}
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-16 mb-12">
@@ -22,9 +22,9 @@ function Footer() {
                 alt="TALT Logo"
                 width={120}
                 height={120}
-                className="mb-4 invert"
+                className="mb-4 "
               />
-              <p className="text-lg leading-relaxed text-gray-200 max-w-md">
+              <p className="text-lg leading-relaxed text-black max-w-md">
                 Developing transformational global leaders in Ghana
                 through character-based scholarships and leadership
                 mentoring programs.
@@ -32,33 +32,33 @@ function Footer() {
             </div>
 
             <div className="space-y-4">
-              <h3 className="text-xl font-semibold text-yellow-300 mb-4">
+              <h3 className="text-xl font-semibold text-primary mb-4">
                 Quick Links
               </h3>
               <div className="grid grid-cols-2 gap-4">
                 <div className="space-y-2">
-                  <h4 className="font-medium text-white mb-3">
+                  <h4 className="font-medium text-black mb-3">
                     About Us
                   </h4>
-                  <ul className="space-y-2 text-sm text-gray-300">
+                  <ul className="space-y-2 text-sm text-gray-800">
                     <li>
                       <button
                         onClick={() => handleScrollClick('about')}
-                        className="hover:text-yellow-300 transition-colors duration-200 cursor-pointer">
+                        className="hover:text-primary transition-colors duration-200 cursor-pointer">
                         Who We Are
                       </button>
                     </li>
                     <li>
                       <button
                         onClick={() => handleScrollClick('values')}
-                        className="hover:text-yellow-300 transition-colors duration-200 cursor-pointer">
+                        className="hover:text-primary transition-colors duration-200 cursor-pointer">
                         Our Values
                       </button>
                     </li>
                     <li>
                       <button
                         onClick={() => handleScrollClick('pillars')}
-                        className="hover:text-yellow-300 transition-colors duration-200 cursor-pointer">
+                        className="hover:text-primary transition-colors duration-200 cursor-pointer">
                         Our Pillars
                       </button>
                     </li>
@@ -66,16 +66,16 @@ function Footer() {
                 </div>
 
                 <div className="space-y-2">
-                  <h4 className="font-medium text-white mb-3">
+                  <h4 className="font-medium text-black mb-3">
                     Programs
                   </h4>
-                  <ul className="space-y-2 text-sm text-gray-300">
+                  <ul className="space-y-2 text-sm text-gray-800">
                     <li>
                       <button
                         onClick={() =>
                           handleScrollClick('selection-process')
                         }
-                        className="hover:text-yellow-300 transition-colors duration-200 cursor-pointer">
+                        className="hover:text-primary transition-colors duration-200 cursor-pointer">
                         Selection Process
                       </button>
                     </li>
@@ -84,7 +84,7 @@ function Footer() {
                         onClick={() =>
                           handleScrollClick('selection-standards')
                         }
-                        className="hover:text-yellow-300 transition-colors duration-200 cursor-pointer">
+                        className="hover:text-primary transition-colors duration-200 cursor-pointer">
                         Selection Standards
                       </button>
                     </li>
@@ -93,7 +93,7 @@ function Footer() {
                         onClick={() =>
                           handleScrollClick('selection-criteria')
                         }
-                        className="hover:text-yellow-300 transition-colors duration-200 cursor-pointer">
+                        className="hover:text-primary transition-colors duration-200 cursor-pointer">
                         Selection Criteria
                       </button>
                     </li>
@@ -108,7 +108,7 @@ function Footer() {
           {/* Bottom Section - Copyright and Additional Info */}
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
             <div className="space-y-2">
-              <p className="text-sm text-gray-300">
+              <p className="text-sm text-gray-800">
                 Copyright © 2025 The Akora Leadership Trust (TALT).
                 All rights reserved.
               </p>
@@ -118,12 +118,12 @@ function Footer() {
               <div className="space-y-2">
                 <button
                   onClick={() => handleScrollClick('testimonials')}
-                  className="block text-sm text-gray-300 hover:text-yellow-300 transition-colors duration-200 cursor-pointer">
+                  className="block text-sm text-gray-800 hover:text-primary transition-colors duration-200 cursor-pointer">
                   Testimonials
                 </button>
                 <button
                   onClick={() => handleScrollClick('contact')}
-                  className="block text-sm text-gray-300 hover:text-yellow-300 transition-colors duration-200 cursor-pointer">
+                  className="block text-sm text-gray-800 hover:text-primary transition-colors duration-200 cursor-pointer">
                   Contact Us
                 </button>
               </div>

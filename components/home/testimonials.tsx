@@ -56,7 +56,7 @@ const testimonials: Testimonial[] = [
     content: `It's been almost a decade since I became a TALT scholar, and even though my formal time with the Trust was from 2016-2020, I am still very connected to the support I receive from my mentors. This enduring relationship speaksvolumes about the Akora Leadership Trust's genuine commitment to its scholars—they don't just invest in your education and walk away; they invest in you as a person for life.
     As a fully-funded scholarship recipient for my Biomedical Engineering degree program at the University of Ghana, I experienced firsthand the Trust's dedication to nurturing Africa's next generation of leaders.
 
-    The personal mentorship and coaching I received from Dr. Eshun and Mr. Eugene Danquah was invaluable. Their guidance completely shifted my leadership perspective and fundamentally shaped my career trajectory. Through their wisdom and experience, I learned not just technical skills, but how to view leadership through a broader, more impactful lens.
+    The personal mentorship and coaching I received from Dr. Mary Ashun and Mr. Eugene Danquah was invaluable. Their guidance completely shifted my leadership perspective and fundamentally shaped my career trajectory. Through their wisdom and experience, I learned not just technical skills, but how to view leadership through a broader, more impactful lens.
 
     My personal experiences with Madam Dei Anang were particularly profound, deeply rooted in leadership values and Pan-Africanism. The constructive advice, honest rebukes, and necessary corrections she provided made the experience truly worthwhile. Her mentorship challenged me to grow beyond my comfort zone and embrace a vision of leadership that extends far beyond personal success.
 
@@ -160,7 +160,7 @@ export const Testimonials = () => {
   return (
     <section
       id="testimonials"
-      className="relative bg-gradient-to-r from-[#012956] via-[#013FB1] to-[#3F87FF] py-16 sm:py-20 lg:py-24 text-white overflow-hidden">
+      className="relative bg-gradient-to-r from-[#313131] via-[#000000] to-[#222222] py-16 sm:py-20 lg:py-24 text-white overflow-hidden">
       <Container className="flex flex-col items-center text-center">
         {/* Section Header */}
         <div className="mb-12 sm:mb-16">

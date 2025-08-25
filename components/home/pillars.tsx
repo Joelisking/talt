@@ -4,7 +4,7 @@ export const Pillars = () => {
   return (
     <section
       id="pillars"
-      className="relative bg-gradient-to-r from-[#012956] via-[#013FB1] to-[#3F87FF] py-16 sm:py-20 lg:py-24 text-white overflow-hidden">
+      className="relative bg-gradient-to-r from-[#313131] via-[#000000] to-[#222222] py-16 sm:py-20 lg:py-24 text-white overflow-hidden">
       <Container className="flex flex-col lg:flex-row items-start gap-10 sm:gap-14 lg:gap-28">
         {/* Left Side */}
         <div className="z-10 flex flex-col justify-center w-full lg:w-auto lg:sticky lg:top-8">
@@ -42,8 +42,7 @@ export const Pillars = () => {
             <p className="text-sm sm:text-base lg:text-lg text-gray-200 leading-relaxed">
               We therefore aim to encourage, enhance and support the
               nurturing of emotional intelligence as a critical factor
-              in the nurturing of Transformational
-              Global Leaders.
+              in the nurturing of Transformational Global Leaders.
             </p>
           </div>
           <div className="rounded-2xl sm:rounded-3xl bg-white/15 backdrop-blur-sm border border-white/30 px-6 sm:px-8 py-8 sm:py-10 lg:py-12 shadow-xl hover:shadow-2xl transition-all duration-300 hover:bg-white/20 group sm:col-span-2">

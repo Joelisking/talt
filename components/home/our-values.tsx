@@ -35,7 +35,7 @@ export const OurValues = () => {
   return (
     <section
       id="values"
-      className="relative bg-gradient-to-r from-[#012956] via-[#013FB1] to-[#3F87FF] py-16 sm:py-20 lg:py-24 text-white overflow-hidden">
+      className="relative bg-gradient-to-r from-[#313131] via-[#000000] to-[#222222] py-16 sm:py-20 lg:py-24 text-white overflow-hidden">
       <Container className="flex flex-col ">
         {/* Section Header */}
         <div className="mb-12 sm:mb-16">
