@@ -15,8 +15,14 @@ export const navItems: NavItem[] = [
     text: 'About Us',
     subItems: [
       { text: 'Who We Are', url: '#about', isScrollLink: true },
+      {
+        text: 'Mission & Vision',
+        url: '#mission',
+        isScrollLink: true,
+      },
       { text: 'Our Values', url: '#values', isScrollLink: true },
       { text: 'Our Pillars', url: '#pillars', isScrollLink: true },
+      { text: 'Our Trustees', url: '#trustees', isScrollLink: true },
     ],
   },
   {

@@ -57,12 +57,33 @@ export default function About() {
 
             {/* Mission */}
             <div className="prose prose-lg max-w-none">
+              <h2 className="text-2xl sm:text-3xl font-bold mb-4">
+                Our Mission
+              </h2>
               <p className="text-lg sm:text-xl text-gray-700 leading-relaxed">
-                Our mission is to develop a new generation of African
-                leaders—young men and women of integrity, driven by
-                purpose and equipped to be transformative global
-                leaders. This mission is guided by our core values,
-                which we call{' '}
+                To cultivate a new generation of African leaders who
+                lead with integrity, live with purpose, and are
+                empowered to drive transformative change on a global
+                scale.
+              </p>
+            </div>
+
+            {/* Vision Statement */}
+            <div className="prose prose-lg max-w-none">
+              <h2 className="text-2xl sm:text-3xl font-bold mb-4">
+                Our Vision
+              </h2>
+              <p className="text-lg sm:text-xl text-gray-700 leading-relaxed">
+                A future where Africa is a recognized wellspring of
+                ethical, purpose-driven global leadership, shaping a
+                more just, innovative, and interconnected world.
+              </p>
+            </div>
+
+            <div className="prose prose-lg max-w-none">
+              <p className="text-lg sm:text-xl text-gray-700 leading-relaxed">
+                This mission is guided by our core values, which we
+                call{' '}
                 <span className="font-semibold text-primary">
                   PAIR
                 </span>

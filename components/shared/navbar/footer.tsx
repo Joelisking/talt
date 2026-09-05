@@ -50,6 +50,13 @@ function Footer() {
                     </li>
                     <li>
                       <button
+                        onClick={() => handleScrollClick('mission')}
+                        className="hover:text-primary transition-colors duration-200 cursor-pointer">
+                        Mission &amp; Vision
+                      </button>
+                    </li>
+                    <li>
+                      <button
                         onClick={() => handleScrollClick('values')}
                         className="hover:text-primary transition-colors duration-200 cursor-pointer">
                         Our Values
@@ -60,6 +67,13 @@ function Footer() {
                         onClick={() => handleScrollClick('pillars')}
                         className="hover:text-primary transition-colors duration-200 cursor-pointer">
                         Our Pillars
+                      </button>
+                    </li>
+                    <li>
+                      <button
+                        onClick={() => handleScrollClick('trustees')}
+                        className="hover:text-primary transition-colors duration-200 cursor-pointer">
+                        Our Trustees
                       </button>
                     </li>
                   </ul>
