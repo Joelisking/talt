@@ -77,7 +77,7 @@ const board: Person[] = [
 const advocates: Person[] = [
   {
     name: 'Akora Frank Anim',
-    role: 'TALT Advocate — Teacher, Cadbury Housemaster',
+    role: 'Teacher, Cadbury Housemaster',
     image: '/trustees/frank-anim.jpg',
   },
 ];

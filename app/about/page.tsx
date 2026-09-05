@@ -16,9 +16,9 @@ export default function About() {
               THE AKORA LEADERSHIP TRUST
             </SectionHeader>
             <p className="text-lg sm:text-xl text-gray-200 max-w-4xl">
-              Developing a new generation of African leaders—young men
-              and women of integrity, driven by purpose and equipped
-              to be transformative global leaders.
+              Developing a new generation of African leaders: young
+              men and women of integrity, driven by purpose and
+              equipped to be transformative global leaders.
             </p>
           </div>
         </Container>
